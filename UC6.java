@@ -4,7 +4,7 @@ public class UC6{
  static final int EMP_RATE_PER_HRS=20;
  static final int WORKING_DAYS=20;
  static final int MAX_HRS=100;
-  static final int COUNT=0;
+ 
  public static void main(String[]args){
 
    int empHrs = 0;
@@ -13,7 +13,7 @@ public class UC6{
    int totalEmpWage=0;
    int count=0;
     while (totalEmpHrs <= MAX_HRS &
-         totalWorkingDays < WORKING_DAYS) {
+         count < WORKING_DAYS) {
      count++;
 
      int empCheck = (int) Math.floor(Math.random()* 10) % 3;
